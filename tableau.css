@@ -1,0 +1,67 @@
+/* création de la bordure externe + fusion des bordures du tableau  */
+
+table {
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0)
+}
+
+/*  Creation des bordures des cellules*/
+
+td, th {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#débit {
+    background-color: rgb(219, 40, 70);
+    width: 75px;
+}
+
+#crédit {
+    background-color: rgb(116, 252, 116);
+    width: 75px;
+}
+
+/* création de la marge interne, couleur de fond gris */
+
+#solde {
+    background-color: #D3D3D3;
+    padding: 0.5em;
+}
+
+/* aligner texte au centre + couleur de fond vert */
+
+#total {
+    text-align: center;
+    background-color: rgb(116, 252, 116);
+}
+
+/* définir la largeur, aligner le contenu à droite,création de la marge interne */
+
+.p1 {
+    text-align: right;
+    width: 130px;
+    padding: 0.5em;
+}
+
+/* définir la largeur + marge interne */
+
+.p2 {
+    width: 200px;
+    padding: 0.5em;
+}
+
+.p3 {
+    width: 15%;
+    text-align: center;
+}
+/*définir la largeur + text centrer  */
+.p4 {
+    width: 15%;
+    text-align: center;
+}
+
+/* couleur de fond en gris */
+
+.p5 {
+    background-color: #D3D3D3;
+}
